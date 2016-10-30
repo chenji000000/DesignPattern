@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4116BA11DC37EA6005423AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BA01DC37EA6005423AE /* main.m */; };
+		F4116BA41DC37EA6005423AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BA31DC37EA6005423AE /* AppDelegate.m */; };
+		F4116BA71DC37EA6005423AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BA61DC37EA6005423AE /* ViewController.m */; };
+		F4116BAA1DC37EA6005423AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4116BA81DC37EA6005423AE /* Main.storyboard */; };
+		F4116BAC1DC37EA6005423AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4116BAB1DC37EA6005423AE /* Assets.xcassets */; };
+		F4116BAF1DC37EA6005423AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4116BAD1DC37EA6005423AE /* LaunchScreen.storyboard */; };
+		F4116BBB1DC37F46005423AE /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BBA1DC37F46005423AE /* BusinessCardView.m */; };
+		F4116BBE1DC37FA1005423AE /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BBD1DC37FA1005423AE /* BusinessCardAdapter.m */; };
+		F4116BC21DC38003005423AE /* NormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BC11DC38003005423AE /* NormalModel.m */; };
+		F4116BC51DC3802B005423AE /* NormalModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BC41DC3802B005423AE /* NormalModelAdapter.m */; };
+		F4116BC81DC38049005423AE /* SpecialModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BC71DC38049005423AE /* SpecialModelAdapter.m */; };
+		F4116BCB1DC3806A005423AE /* SpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BCA1DC3806A005423AE /* SpecialModel.m */; };
+		F4116BCE1DC38092005423AE /* CommonUsedAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4116BCD1DC38092005423AE /* CommonUsedAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4116B9C1DC37EA6005423AE /* Adapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4116BA01DC37EA6005423AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4116BA21DC37EA6005423AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4116BA31DC37EA6005423AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4116BA51DC37EA6005423AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4116BA61DC37EA6005423AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4116BA91DC37EA6005423AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4116BAB1DC37EA6005423AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4116BAE1DC37EA6005423AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4116BB01DC37EA6005423AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4116BB91DC37F46005423AE /* BusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardView.h; sourceTree = "<group>"; };
+		F4116BBA1DC37F46005423AE /* BusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardView.m; sourceTree = "<group>"; };
+		F4116BBC1DC37FA1005423AE /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapter.h; sourceTree = "<group>"; };
+		F4116BBD1DC37FA1005423AE /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardAdapter.m; sourceTree = "<group>"; };
+		F4116BBF1DC37FC4005423AE /* BusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
+		F4116BC01DC38003005423AE /* NormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModel.h; sourceTree = "<group>"; };
+		F4116BC11DC38003005423AE /* NormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModel.m; sourceTree = "<group>"; };
+		F4116BC31DC3802B005423AE /* NormalModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModelAdapter.h; sourceTree = "<group>"; };
+		F4116BC41DC3802B005423AE /* NormalModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModelAdapter.m; sourceTree = "<group>"; };
+		F4116BC61DC38049005423AE /* SpecialModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialModelAdapter.h; sourceTree = "<group>"; };
+		F4116BC71DC38049005423AE /* SpecialModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialModelAdapter.m; sourceTree = "<group>"; };
+		F4116BC91DC3806A005423AE /* SpecialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialModel.h; sourceTree = "<group>"; };
+		F4116BCA1DC3806A005423AE /* SpecialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialModel.m; sourceTree = "<group>"; };
+		F4116BCC1DC38092005423AE /* CommonUsedAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUsedAdapter.h; sourceTree = "<group>"; };
+		F4116BCD1DC38092005423AE /* CommonUsedAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUsedAdapter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4116B991DC37EA6005423AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4116B931DC37EA6005423AE = {
+			isa = PBXGroup;
+			children = (
+				F4116B9E1DC37EA6005423AE /* Adapter */,
+				F4116B9D1DC37EA6005423AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4116B9D1DC37EA6005423AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4116B9C1DC37EA6005423AE /* Adapter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4116B9E1DC37EA6005423AE /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				F4116BA21DC37EA6005423AE /* AppDelegate.h */,
+				F4116BA31DC37EA6005423AE /* AppDelegate.m */,
+				F4116BA51DC37EA6005423AE /* ViewController.h */,
+				F4116BA61DC37EA6005423AE /* ViewController.m */,
+				F4116BCC1DC38092005423AE /* CommonUsedAdapter.h */,
+				F4116BCD1DC38092005423AE /* CommonUsedAdapter.m */,
+				F4116BB61DC37F04005423AE /* BusinessCard */,
+				F4116BB71DC37F04005423AE /* NormalModel */,
+				F4116BB81DC37F04005423AE /* SpecialModel */,
+				F4116BA81DC37EA6005423AE /* Main.storyboard */,
+				F4116BAB1DC37EA6005423AE /* Assets.xcassets */,
+				F4116BAD1DC37EA6005423AE /* LaunchScreen.storyboard */,
+				F4116BB01DC37EA6005423AE /* Info.plist */,
+				F4116B9F1DC37EA6005423AE /* Supporting Files */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		F4116B9F1DC37EA6005423AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4116BA01DC37EA6005423AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4116BB61DC37F04005423AE /* BusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				F4116BB91DC37F46005423AE /* BusinessCardView.h */,
+				F4116BBA1DC37F46005423AE /* BusinessCardView.m */,
+				F4116BBC1DC37FA1005423AE /* BusinessCardAdapter.h */,
+				F4116BBD1DC37FA1005423AE /* BusinessCardAdapter.m */,
+				F4116BBF1DC37FC4005423AE /* BusinessCardAdapterProtocol.h */,
+			);
+			path = BusinessCard;
+			sourceTree = "<group>";
+		};
+		F4116BB71DC37F04005423AE /* NormalModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4116BC01DC38003005423AE /* NormalModel.h */,
+				F4116BC11DC38003005423AE /* NormalModel.m */,
+				F4116BC31DC3802B005423AE /* NormalModelAdapter.h */,
+				F4116BC41DC3802B005423AE /* NormalModelAdapter.m */,
+			);
+			path = NormalModel;
+			sourceTree = "<group>";
+		};
+		F4116BB81DC37F04005423AE /* SpecialModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4116BC91DC3806A005423AE /* SpecialModel.h */,
+				F4116BCA1DC3806A005423AE /* SpecialModel.m */,
+				F4116BC61DC38049005423AE /* SpecialModelAdapter.h */,
+				F4116BC71DC38049005423AE /* SpecialModelAdapter.m */,
+			);
+			path = SpecialModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4116B9B1DC37EA6005423AE /* Adapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4116BB31DC37EA6005423AE /* Build configuration list for PBXNativeTarget "Adapter" */;
+			buildPhases = (
+				F4116B981DC37EA6005423AE /* Sources */,
+				F4116B991DC37EA6005423AE /* Frameworks */,
+				F4116B9A1DC37EA6005423AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adapter;
+			productName = Adapter;
+			productReference = F4116B9C1DC37EA6005423AE /* Adapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4116B941DC37EA6005423AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈吉";
+				TargetAttributes = {
+					F4116B9B1DC37EA6005423AE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F4116B971DC37EA6005423AE /* Build configuration list for PBXProject "Adapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4116B931DC37EA6005423AE;
+			productRefGroup = F4116B9D1DC37EA6005423AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4116B9B1DC37EA6005423AE /* Adapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4116B9A1DC37EA6005423AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4116BAF1DC37EA6005423AE /* LaunchScreen.storyboard in Resources */,
+				F4116BAC1DC37EA6005423AE /* Assets.xcassets in Resources */,
+				F4116BAA1DC37EA6005423AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4116B981DC37EA6005423AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4116BA71DC37EA6005423AE /* ViewController.m in Sources */,
+				F4116BCE1DC38092005423AE /* CommonUsedAdapter.m in Sources */,
+				F4116BCB1DC3806A005423AE /* SpecialModel.m in Sources */,
+				F4116BA41DC37EA6005423AE /* AppDelegate.m in Sources */,
+				F4116BBE1DC37FA1005423AE /* BusinessCardAdapter.m in Sources */,
+				F4116BC81DC38049005423AE /* SpecialModelAdapter.m in Sources */,
+				F4116BC51DC3802B005423AE /* NormalModelAdapter.m in Sources */,
+				F4116BBB1DC37F46005423AE /* BusinessCardView.m in Sources */,
+				F4116BC21DC38003005423AE /* NormalModel.m in Sources */,
+				F4116BA11DC37EA6005423AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4116BA81DC37EA6005423AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4116BA91DC37EA6005423AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4116BAD1DC37EA6005423AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4116BAE1DC37EA6005423AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4116BB11DC37EA6005423AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4116BB21DC37EA6005423AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4116BB41DC37EA6005423AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adapter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenji.Adapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4116BB51DC37EA6005423AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adapter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenji.Adapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4116B971DC37EA6005423AE /* Build configuration list for PBXProject "Adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4116BB11DC37EA6005423AE /* Debug */,
+				F4116BB21DC37EA6005423AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4116BB31DC37EA6005423AE /* Build configuration list for PBXNativeTarget "Adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4116BB41DC37EA6005423AE /* Debug */,
+				F4116BB51DC37EA6005423AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4116B941DC37EA6005423AE /* Project object */;
+}
