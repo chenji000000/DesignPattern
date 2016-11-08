@@ -13,7 +13,7 @@
 @implementation AbstractProxy
 
 - (instancetype)initWithCustomer:(id)customer {
-    self.customer = customer;
+    _customer = customer;
     return self;
 }
 

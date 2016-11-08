@@ -19,7 +19,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.filesArray = [NSMutableArray array];
+        _filesArray = [NSMutableArray array];
     }
     return self;
 }

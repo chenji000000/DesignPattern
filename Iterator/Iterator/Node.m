@@ -14,7 +14,7 @@
 
     self = [super init];
     if (self) {
-        self.item = item;
+        _item = item;
     }
     return self;
 }

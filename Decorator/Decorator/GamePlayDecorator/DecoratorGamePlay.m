@@ -20,7 +20,7 @@
     if (self = [super init]) {
         
         //装饰对象包含一个真实对象的引用
-        self.gamePlay = [GamePlay new];
+        _gamePlay = [GamePlay new];
     }
     return self;
 }

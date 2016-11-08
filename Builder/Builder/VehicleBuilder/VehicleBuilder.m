@@ -12,7 +12,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        self.vehicleInfo = [NSMutableDictionary dictionary];
+        _vehicleInfo = [NSMutableDictionary dictionary];
     }
     return self;
 }

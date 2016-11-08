@@ -22,8 +22,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.orders = [NSMutableDictionary dictionary];
-        self.menu = [[Menu alloc] init];
+        _orders = [NSMutableDictionary dictionary];
+        _menu = [[Menu alloc] init];
     }
     return self;
 }

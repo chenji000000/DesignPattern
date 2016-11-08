@@ -22,8 +22,8 @@
 
     if (self = [super init]) {
         
-        self.linkedList = linkedList;
-        self.currentNode = linkedList.headNode;
+        _linkedList = linkedList;
+        _currentNode = linkedList.headNode;
     }
     return self;
 }

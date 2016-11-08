@@ -19,7 +19,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.flavors = [NSMutableDictionary dictionary];
+        _flavors = [NSMutableDictionary dictionary];
     }
     return self;
 }
